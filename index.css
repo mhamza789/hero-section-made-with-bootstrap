@@ -1,0 +1,56 @@
+::root {
+  --yellow: #f7931a;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Ubuntu", sans-serif !important;
+  background-image: linear-gradient(to bottom right, #ffe9b9, #ffaf01);
+}
+
+div.container {
+  background-color: rgb(228, 228, 228);
+  border: 4px solid #23272b !important;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 756px) {
+  .alert-warning {
+    width: 80% !important;
+  }
+}
+
+a.navbar-item {
+  margin-right: 20px;
+  color: black;
+}
+
+a.nav-link {
+  color: black !important;
+}
+
+div.navbar-collapse {
+  justify-content: center;
+}
+
+.img-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-warning {
+  background-color: var(--yellow) !important;
+}
+
+.navbar-brand {
+  color: var(--yellow) !important;
+  font-size: 30px !important;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
